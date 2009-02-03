@@ -30,7 +30,7 @@ class Tidybuf
   # Convert to array.
   #
   def to_a
-    to_s.split("\r\n")
+    to_s.split($/)
   end
 
   # Convert to string.
